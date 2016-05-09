@@ -147,8 +147,24 @@ class ViewController: UIViewController {
         "Knock! Knock! - Who’s there? - Isabelle. - Isabelle who? - Isabelle working, or should I keep knocking?"]
     
 
-    
-    
+    @IBAction func genericJokesGen(sender: AnyObject) {
+    }
+    @IBAction func natureJokesGen(sender: AnyObject) {
+    }
+    @IBAction func scienceJokesGen(sender: AnyObject) {
+    }
+    @IBAction func yoMamaJokesGen(sender: AnyObject) {
+    }
+    @IBAction func gamerJokesGen(sender: AnyObject) {
+    }
+    @IBAction func knockknockJokesGen(sender: AnyObject) {
+    }
+    @IBAction func likeAction(sender: AnyObject) {
+    }
+    @IBAction func likedJokesGen(sender: AnyObject) {
+    }
+    @IBOutlet weak var displayLabel: UILabel!
+
     
     
     

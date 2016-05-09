@@ -20,6 +20,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pundora's Boxx copy" translatesAutoresizingMaskIntoConstraints="NO" id="NIb-4q-5L5">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pundora's Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-Ou-GUC">
+                                <rect key="frame" x="183" y="20" width="235" height="32"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="34"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="McS-1a-MUs">
                                 <rect key="frame" x="146" y="51" width="308" height="13"/>
                                 <color key="backgroundColor" red="0.74509803921568629" green="0.61960784313725492" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
@@ -46,6 +52,9 @@
                                 <state key="normal" title="Generic Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="genericJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yj4-ci-7jm"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Idk-Ct-I4u">
                                 <rect key="frame" x="146" y="528" width="308" height="14"/>
@@ -57,6 +66,9 @@
                                 <state key="normal" title="Science Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="scienceJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhO-AD-beJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppy-qM-6Wr">
                                 <rect key="frame" x="146" y="441" width="126" height="30"/>
@@ -64,6 +76,9 @@
                                 <state key="normal" title="Yo Mama Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="yoMamaJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRO-vK-RUp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-xP-efe">
                                 <rect key="frame" x="222" y="479" width="157" height="41"/>
@@ -71,6 +86,9 @@
                                 <state key="normal" title="Knock Knock Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="knockknockJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of6-Ve-q0h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23I-ja-tnz">
                                 <rect key="frame" x="153" y="122" width="129" height="30"/>
@@ -78,6 +96,9 @@
                                 <state key="normal" title="Nature Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="natureJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h2i-cw-SPd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTE-qd-ypg">
                                 <rect key="frame" x="333" y="441" width="121" height="30"/>
@@ -85,6 +106,9 @@
                                 <state key="normal" title="Gamer Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="gamerJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rla-Nz-R4q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEq-I2-14e">
                                 <rect key="frame" x="154" y="163" width="300" height="270"/>
@@ -94,20 +118,23 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tND-As-qLP">
                                 <rect key="frame" x="146" y="550" width="42" height="30"/>
                                 <state key="normal" title="LIKE? "/>
+                                <connections>
+                                    <action selector="likeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j45-s7-l5E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dW1-XV-7t9">
-                                <rect key="frame" x="387" y="550" width="92" height="30"/>
+                                <rect key="frame" x="362" y="550" width="92" height="30"/>
                                 <state key="normal" title="LIKED JOKES"/>
+                                <connections>
+                                    <action selector="likedJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRL-TP-rRs"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pundora's Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-Ou-GUC">
-                                <rect key="frame" x="183" y="20" width="235" height="32"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="34"/>
-                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="displayLabel" destination="QEq-I2-14e" id="9Lx-7d-86O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

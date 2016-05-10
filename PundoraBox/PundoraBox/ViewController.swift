@@ -148,16 +148,28 @@ class ViewController: UIViewController {
     
 
     @IBAction func genericJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(genericJokes.count)))
+        displayLabel.text = genericJokes[randomIndex]
     }
     @IBAction func natureJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(natureJokes.count)))
+        displayLabel.text = natureJokes[randomIndex]
     }
     @IBAction func scienceJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(scienceJokes.count)))
+        displayLabel.text = scienceJokes[randomIndex]
     }
     @IBAction func yoMamaJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(yoMaMaJokes.count)))
+        displayLabel.text = yoMaMaJokes[randomIndex]
     }
     @IBAction func gamerJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(gamerJokes.count)))
+        displayLabel.text = gamerJokes[randomIndex]
     }
     @IBAction func knockknockJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(knockKnockJokes.count)))
+        displayLabel.text = knockKnockJokes[randomIndex]
     }
     @IBAction func likeAction(sender: AnyObject) {
     }
@@ -165,13 +177,7 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var displayLabel: UILabel!
 
-    
-    
-    
-    
-    
-    
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib. meh meh meh
     }

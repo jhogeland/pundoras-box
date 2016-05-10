@@ -484,6 +484,7 @@
 				290C14CD1CD940D500C9C42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290C14CE1CD940D500C9C42F /* Build configuration list for PBXNativeTarget "PundoraBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				290C14D01CD940D500C9C42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290C14D11CD940D500C9C42F /* Build configuration list for PBXNativeTarget "PundoraBoxUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				290C14D31CD940D500C9C42F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

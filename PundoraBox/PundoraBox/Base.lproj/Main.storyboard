@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pundora's Boxx copy" translatesAutoresizingMaskIntoConstraints="NO" id="NIb-4q-5L5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PundorasBoxxFinal" translatesAutoresizingMaskIntoConstraints="NO" id="8gc-tY-8Fi">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pundora's Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-Ou-GUC">
@@ -142,6 +142,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pundora's Boxx copy" width="2100" height="1500"/>
+        <image name="PundorasBoxxFinal" width="2100" height="1500"/>
     </resources>
 </document>

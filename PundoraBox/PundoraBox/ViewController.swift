@@ -145,7 +145,7 @@ class ViewController: UIViewController {
         "Knock! Knock! - Who’s there? - Luke. - Luke who? - Luke through the keyhole to see!",
         "Knock! Knock! - Who’s there? - Ketchup. - Ketchup who? - Ketchup with me and I’ll tell you!",
         "Knock! Knock! - Who’s there? - Isabelle. - Isabelle who? - Isabelle working, or should I keep knocking?"]
-    
+    var likedJokes = [String]()
 
     @IBAction func genericJokesGen(sender: AnyObject) {
         let randomIndex = Int(arc4random_uniform(UInt32(genericJokes.count)))
@@ -172,8 +172,11 @@ class ViewController: UIViewController {
         displayLabel.text = knockKnockJokes[randomIndex]
     }
     @IBAction func likeAction(sender: AnyObject) {
+        likedJokes.append(displayLabel.text!)
     }
     @IBAction func likedJokesGen(sender: AnyObject) {
+        let randomIndex = Int(arc4random_uniform(UInt32(likedJokes.count)))
+        displayLabel.text = likedJokes[randomIndex]
     }
     @IBOutlet weak var displayLabel: UILabel!
 

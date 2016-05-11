@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PundorasBoxxFinal" translatesAutoresizingMaskIntoConstraints="NO" id="8gc-tY-8Fi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PundorasBoxxFinal" translatesAutoresizingMaskIntoConstraints="NO" id="8gc-tY-8Fi">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pundora's Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx1-Ou-GUC">
@@ -26,38 +27,8 @@
                                 <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-YU-FB0">
-                                <rect key="frame" x="236" y="70" width="129" height="41"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="Generic Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="genericJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yj4-ci-7jm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g0-FW-xeG">
-                                <rect key="frame" x="459" y="119" width="121" height="36"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="Science Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="scienceJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhO-AD-beJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppy-qM-6Wr">
-                                <rect key="frame" x="21" y="441" width="126" height="30"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="Yo Mama Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="yoMamaJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRO-vK-RUp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-xP-efe">
-                                <rect key="frame" x="222" y="479" width="157" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-xP-efe">
+                                <rect key="frame" x="222" y="478" width="157" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Knock Knock Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -66,8 +37,8 @@
                                     <action selector="knockknockJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of6-Ve-q0h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23I-ja-tnz">
-                                <rect key="frame" x="20" y="122" width="129" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23I-ja-tnz">
+                                <rect key="frame" x="21" y="119" width="103" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Nature Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,27 +47,27 @@
                                     <action selector="natureJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h2i-cw-SPd"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEq-I2-14e">
-                                <rect key="frame" x="21" y="163" width="559" height="270"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEq-I2-14e">
+                                <rect key="frame" x="20" y="290" width="559" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tND-As-qLP">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tND-As-qLP">
                                 <rect key="frame" x="146" y="550" width="42" height="30"/>
                                 <state key="normal" title="LIKE? "/>
                                 <connections>
                                     <action selector="likeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j45-s7-l5E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dW1-XV-7t9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dW1-XV-7t9">
                                 <rect key="frame" x="362" y="550" width="92" height="30"/>
                                 <state key="normal" title="LIKED JOKES"/>
                                 <connections>
                                     <action selector="likedJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRL-TP-rRs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTE-qd-ypg">
-                                <rect key="frame" x="459" y="441" width="121" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTE-qd-ypg">
+                                <rect key="frame" x="478" y="430" width="102" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Gamer Jokes">
                                     <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -105,11 +76,66 @@
                                     <action selector="gamerJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rla-Nz-R4q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-YU-FB0">
+                                <rect key="frame" x="245" y="67" width="110" height="41"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="Generic Jokes">
+                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="genericJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yj4-ci-7jm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppy-qM-6Wr">
+                                <rect key="frame" x="21" y="430" width="122" height="41"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="Yo Mama Jokes">
+                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="yoMamaJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRO-vK-RUp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g0-FW-xeG">
+                                <rect key="frame" x="468" y="119" width="111" height="41"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="Science Jokes">
+                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="scienceJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhO-AD-beJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tND-As-qLP" secondAttribute="bottom" constant="20" id="8gY-3d-TAc"/>
                             <constraint firstItem="Qx1-Ou-GUC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="At0-kT-1d0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ppy-qM-6Wr" secondAttribute="bottom" constant="129" id="BWi-ch-K8d"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8gc-tY-8Fi" secondAttribute="bottom" id="F4M-jg-R6G"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fTE-qd-ypg" secondAttribute="bottom" constant="129" id="GWx-ZZ-X5a"/>
+                            <constraint firstItem="uzD-YU-FB0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HIK-dp-ZRD"/>
+                            <constraint firstItem="dW1-XV-7t9" firstAttribute="top" secondItem="sAP-xP-efe" secondAttribute="bottom" constant="31" id="IgJ-a4-xey"/>
+                            <constraint firstItem="QEq-I2-14e" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-1" id="Ix8-lV-ghh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4g0-FW-xeG" secondAttribute="trailing" constant="1" id="JfV-9y-glX"/>
+                            <constraint firstItem="8gc-tY-8Fi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="K3y-oH-uNf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8gc-tY-8Fi" secondAttribute="trailing" constant="-20" id="NDe-sj-1tR"/>
+                            <constraint firstItem="uzD-YU-FB0" firstAttribute="top" secondItem="Qx1-Ou-GUC" secondAttribute="bottom" constant="15" id="ScA-uV-obK"/>
+                            <constraint firstItem="QEq-I2-14e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VKF-3a-DEI"/>
+                            <constraint firstItem="tND-As-qLP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-133" id="VlX-YR-g1x"/>
+                            <constraint firstItem="23I-ja-tnz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="Wb0-oh-Fj4"/>
+                            <constraint firstItem="4g0-FW-xeG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="99" id="YqE-gr-IuE"/>
+                            <constraint firstItem="QEq-I2-14e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dpz-0r-zTR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4g0-FW-xeG" secondAttribute="trailing" constant="1" id="glT-EO-pHN"/>
+                            <constraint firstItem="sAP-xP-efe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gmt-ef-nea"/>
+                            <constraint firstItem="23I-ja-tnz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="99" id="oXX-2j-69y"/>
+                            <constraint firstItem="8gc-tY-8Fi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="tP5-Ge-hzU"/>
+                            <constraint firstItem="fTE-qd-ypg" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tu1-4O-j1N"/>
                             <constraint firstItem="Qx1-Ou-GUC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uhW-g7-vvv"/>
+                            <constraint firstItem="dW1-XV-7t9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="108" id="vvz-WR-NQd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dW1-XV-7t9" secondAttribute="bottom" constant="20" id="w4z-PI-Mjj"/>
+                            <constraint firstItem="ppy-qM-6Wr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="xVY-Lb-OV6"/>
+                            <constraint firstItem="23I-ja-tnz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="xYJ-Au-LI1"/>
                         </constraints>
                     </view>
                     <connections>
@@ -118,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="418"/>
+            <point key="canvasLocation" x="318" y="357"/>
         </scene>
     </scenes>
     <resources>

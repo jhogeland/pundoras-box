@@ -147,6 +147,7 @@ class ViewController: UIViewController {
         "Knock! Knock! - Who’s there? - Isabelle. - Isabelle who? - Isabelle working, or should I keep knocking?"]
     var likedJokes = [String]()
 
+
     @IBAction func genericJokesGen(sender: AnyObject) {
         let randomIndex = Int(arc4random_uniform(UInt32(genericJokes.count)))
         displayLabel.text = genericJokes[randomIndex]
@@ -178,13 +179,14 @@ class ViewController: UIViewController {
         let randomIndex = Int(arc4random_uniform(UInt32(likedJokes.count)))
         displayLabel.text = likedJokes[randomIndex]
     }
+
     @IBOutlet weak var displayLabel: UILabel!
 
-        override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
+        displayLabel.numberOfLines = 0
         // Do any additional setup after loading the view, typically from a nib. meh meh meh
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

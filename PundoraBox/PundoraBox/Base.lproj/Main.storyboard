@@ -31,27 +31,17 @@
                                 <rect key="frame" x="468" y="119" width="111" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Science Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="scienceJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhO-AD-beJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-xP-efe">
-                                <rect key="frame" x="222" y="478" width="157" height="41"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="Knock Knock Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="knockknockJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of6-Ve-q0h"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23I-ja-tnz">
                                 <rect key="frame" x="21" y="119" width="103" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Nature Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="natureJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h2i-cw-SPd"/>
@@ -75,7 +65,7 @@
                                 <rect key="frame" x="478" y="430" width="102" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Gamer Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="gamerJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rla-Nz-R4q"/>
@@ -85,7 +75,7 @@
                                 <rect key="frame" x="245" y="67" width="110" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Generic Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="genericJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yj4-ci-7jm"/>
@@ -95,7 +85,7 @@
                                 <rect key="frame" x="21" y="430" width="122" height="41"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Yo Mama Jokes">
-                                    <color key="titleColor" red="1" green="0.020100812990000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="yoMamaJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRO-vK-RUp"/>
@@ -104,8 +94,18 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What will Pundora's Box show you?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEq-I2-14e">
                                 <rect key="frame" x="20" y="333" width="559" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.19860924360000001" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-xP-efe">
+                                <rect key="frame" x="222" y="478" width="157" height="41"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="Knock Knock Jokes">
+                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="knockknockJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of6-Ve-q0h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -125,7 +125,7 @@
                             <constraint firstItem="tND-As-qLP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-133" id="VlX-YR-g1x"/>
                             <constraint firstItem="23I-ja-tnz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="1" id="Wb0-oh-Fj4"/>
                             <constraint firstItem="4g0-FW-xeG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="99" id="YqE-gr-IuE"/>
-                            <constraint firstItem="QEq-I2-14e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="43.5" id="dpz-0r-zTR"/>
+                            <constraint firstItem="QEq-I2-14e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="44" id="dpz-0r-zTR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4g0-FW-xeG" secondAttribute="trailing" constant="1" id="glT-EO-pHN"/>
                             <constraint firstItem="sAP-xP-efe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gmt-ef-nea"/>
                             <constraint firstItem="23I-ja-tnz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="99" id="oXX-2j-69y"/>

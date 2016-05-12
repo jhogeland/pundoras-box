@@ -145,8 +145,12 @@ class ViewController: UIViewController {
         "Knock! Knock! - Who’s there? - Luke. - Luke who? - Luke through the keyhole to see!",
         "Knock! Knock! - Who’s there? - Ketchup. - Ketchup who? - Ketchup with me and I’ll tell you!",
         "Knock! Knock! - Who’s there? - Isabelle. - Isabelle who? - Isabelle working, or should I keep knocking?"]
-    var likedJokes = [String]()
-
+    
+    var emptyLikedJokes = ["You are not Punny enough Like a pun and try again.", "Your Pun game is weak bro.", "You have not liked a pun therefor you have no sense of humor. Like a Pun and try again.","I got nothing for ya mate. Try pushing the Like button i think that might help."]
+    
+     var likedJokes = [String]()
+    
+    //Joke Buttons
 
     @IBAction func genericJokesGen(sender: AnyObject) {
         let randomIndex = Int(arc4random_uniform(UInt32(genericJokes.count)))
@@ -176,10 +180,14 @@ class ViewController: UIViewController {
         likedJokes.append(displayLabel.text!)
     }
     @IBAction func likedJokesGen(sender: AnyObject) {
-        let randomIndex = Int(arc4random_uniform(UInt32(likedJokes.count)))
-        displayLabel.text = likedJokes[randomIndex]
+        if likedJokes.count == 0 {
+            let randomIndex = Int(arc4random_uniform(UInt32(emptyLikedJokes.count)))
+            displayLabel.text = emptyLikedJokes[randomIndex]
+        }else{
+            let randomIndex = Int(arc4random_uniform(UInt32(likedJokes.count)))
+            displayLabel.text = likedJokes[randomIndex]
+        }
     }
-
     @IBOutlet weak var displayLabel: UILabel!
 
     override func viewDidLoad() {

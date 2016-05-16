@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     // Jokes Array
     
     let yoMaMaJokes = [
@@ -117,7 +118,6 @@ class ViewController: UIViewController {
         "Q: Why did Frogger cross the road? A: Because you've been playing the game for hours and you've finally beat this level",
         "The great Gastly",
         "I'm not gonna raichu a love song",
-        "I have to take the bus cause my car got toad",
         "I went outside once... The graphics were not that good",
         "Q: What is the national sport of Minecraft? A: Boxing",
         "Q: Which video game system is always late for class? A: Atardi",
@@ -146,9 +146,10 @@ class ViewController: UIViewController {
         "Knock! Knock! - Who’s there? - Ketchup. - Ketchup who? - Ketchup with me and I’ll tell you!",
         "Knock! Knock! - Who’s there? - Isabelle. - Isabelle who? - Isabelle working, or should I keep knocking?"]
     
-    var emptyLikedJokes = ["You are not Punny enough Like a pun and try again.", "Your Pun game is weak bro.", "You have not liked a pun therefor you have no sense of humor. Like a Pun and try again.","I got nothing for ya mate. Try pushing the Like button i think that might help."]
+    let emptyLikedJokes = ["You are not Punny enough Like a pun and try again.", "Your Pun game is weak bro.", "You have not liked a pun therefor you have no sense of humor. Like a Pun and try again.","I got nothing for ya mate. Try pushing the Like button i think that might help."]
     
-     var likedJokes = [String]()
+    var likedJokes = [String]()
+    
     
     //Joke Buttons
 
@@ -176,7 +177,7 @@ class ViewController: UIViewController {
         let randomIndex = Int(arc4random_uniform(UInt32(knockKnockJokes.count)))
         displayLabel.text = knockKnockJokes[randomIndex]
     }
-    @IBAction func likeAction(sender: AnyObject) {
+    @IBAction func likeAction(sender: AnyObject) {        
         likedJokes.append(displayLabel.text!)
     }
     @IBAction func likedJokesGen(sender: AnyObject) {
@@ -188,17 +189,20 @@ class ViewController: UIViewController {
             displayLabel.text = likedJokes[randomIndex]
         }
     }
+    
     @IBOutlet weak var displayLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         displayLabel.numberOfLines = 0
+        
         // Do any additional setup after loading the view, typically from a nib. meh meh meh
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
 
 
 }

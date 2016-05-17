@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let defaults = NSUserDefaults.standardUserDefaults()
 
+    
     
     // Jokes Array
     
@@ -179,6 +181,7 @@ class ViewController: UIViewController {
     }
     @IBAction func likeAction(sender: AnyObject) {        
         likedJokes.append(displayLabel.text!)
+        defaults.setObject(likedJokes, forKey:"SavedArray")
     }
     @IBAction func likedJokesGen(sender: AnyObject) {
         if likedJokes.count == 0 {
@@ -195,6 +198,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         displayLabel.numberOfLines = 0
+        let savedArray = defaults.objectForKey("SavedArray") as? [String] ?? [String]()
+        likedJokes = savedArray
         
         // Do any additional setup after loading the view, typically from a nib. meh meh meh
     }

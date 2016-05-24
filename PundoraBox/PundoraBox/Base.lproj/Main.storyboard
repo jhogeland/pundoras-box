@@ -29,9 +29,10 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4g0-FW-xeG">
                                 <rect key="frame" x="468" y="119" width="111" height="41"/>
+                                <color key="backgroundColor" red="0.35893352239999998" green="0.65805202760000003" blue="0.55843007840000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Science Jokes">
-                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.96862745098039216" green="0.78431372549019607" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="scienceJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hhO-AD-beJ"/>
@@ -39,9 +40,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23I-ja-tnz">
                                 <rect key="frame" x="21" y="119" width="103" height="41"/>
+                                <color key="backgroundColor" red="0.35893352242376719" green="0.65805202762923354" blue="0.5584300784260281" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Nature Jokes">
-                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.96862745100000003" green="0.7843137255" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="natureJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h2i-cw-SPd"/>
@@ -49,33 +51,30 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tND-As-qLP">
                                 <rect key="frame" x="150" y="550" width="35" height="30"/>
-                                <state key="normal" title="LIKE "/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="LIKE ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="likeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j45-s7-l5E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dW1-XV-7t9">
                                 <rect key="frame" x="362" y="550" width="92" height="30"/>
-                                <state key="normal" title="LIKED JOKES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="LIKED JOKES">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="likedJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HRL-TP-rRs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTE-qd-ypg">
-                                <rect key="frame" x="478" y="430" width="102" height="41"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
-                                <state key="normal" title="Gamer Jokes">
-                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="gamerJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rla-Nz-R4q"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzD-YU-FB0">
                                 <rect key="frame" x="245" y="67" width="110" height="41"/>
+                                <color key="backgroundColor" red="0.35893352239999998" green="0.65805202760000003" blue="0.55843007840000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Generic Jokes">
-                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.96862745100000003" green="0.7843137255" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="genericJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yj4-ci-7jm"/>
@@ -83,9 +82,10 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppy-qM-6Wr">
                                 <rect key="frame" x="21" y="430" width="122" height="41"/>
+                                <color key="backgroundColor" red="0.35893352239999998" green="0.65805202760000003" blue="0.55843007840000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Yo Mama Jokes">
-                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.96862745100000003" green="0.7843137255" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="yoMamaJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BRO-vK-RUp"/>
@@ -99,12 +99,24 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-xP-efe">
                                 <rect key="frame" x="222" y="478" width="157" height="41"/>
+                                <color key="backgroundColor" red="0.35893352239999998" green="0.65805202760000003" blue="0.55843007840000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
                                 <state key="normal" title="Knock Knock Jokes">
-                                    <color key="titleColor" red="1" green="0.73691958999999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.96862745100000003" green="0.7843137255" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="knockknockJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of6-Ve-q0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTE-qd-ypg">
+                                <rect key="frame" x="478" y="430" width="102" height="41"/>
+                                <color key="backgroundColor" red="0.35893352239999998" green="0.65805202760000003" blue="0.55843007840000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="18"/>
+                                <state key="normal" title="Gamer Jokes">
+                                    <color key="titleColor" red="0.96862745100000003" green="0.7843137255" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="gamerJokesGen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rla-Nz-R4q"/>
                                 </connections>
                             </button>
                         </subviews>
